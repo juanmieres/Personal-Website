@@ -1,0 +1,32 @@
+.main-header:before {
+    background: linear-gradient(54deg,rgb(60 30 101 / 85%) 26%,hsl(0deg 54% 83% / 85%)) !important;
+}
+
+.contacts .contacts__social a {
+    text-decoration: none;
+}
+
+.contacts .contacts__social a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: initial;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.section__resume .skins-list__block-title {
+    text-transform: uppercase;
+    color: #6d56c1;
+    line-height: 20px;
+    font-family: Roboto Mono,monospace;
+    font-weight: 700;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    text-align: right;
+}
+
+.progress-list .progress .progress-bar {
+    background: linear-gradient(54deg,rgb(187 167 236) 0%,hsl(253deg 46% 55%)) !important;
+}
+
