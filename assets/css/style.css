@@ -30,3 +30,32 @@
     background: linear-gradient(54deg,rgb(187 167 236) 0%,hsl(253deg 46% 55%)) !important;
 }
 
+.project-card:hover {
+    box-shadow: 0 1px 31px rgba(0,0,0,.09);
+    cursor: auto;
+}
+
+.project-card .project-card__img {
+    background: #f0f0f0;
+}
+
+.project-card .project-card__img img {
+    object-fit: contain;
+    /* object-fit: fill; */
+}
+
+.tags li {
+    margin-bottom: 5px;
+}
+
+.project-card .project-card__info {
+    padding: 30px;
+}
+
+.project-card .project-card__link {
+    margin-top: 25px;
+}
+
+.project-card .project-card__description {
+    margin-bottom: 25px;
+}
