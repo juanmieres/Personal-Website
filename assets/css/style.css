@@ -59,3 +59,7 @@
 .project-card .project-card__description {
     margin-bottom: 25px;
 }
+
+.site-btn {
+    min-width: 250px;
+}
