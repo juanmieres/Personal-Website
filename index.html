@@ -83,7 +83,7 @@
                     <div class="personal-profile__contacts">
                         <dl class="contact-list contact-list__opacity-titles">
                             <dt>Edad:</dt>
-                            <dd>31</dd>
+                            <dd><span data-type="age"></span></dd>
                             <dt>Celular:</dt>
                             <dd><a href="tel:+56976603922">(+56) 9 76603922</a></dd>
                             <dt>Email:</dt>
@@ -628,7 +628,7 @@
                 </div>
                 <div class="col-md-12">
                     <div class="footer">
-                        <p>© 2020 Juan Mieres Solis. Derechos reservados</p>
+                        <p>© <span data-type="year"></span> Juan Mieres Solis. Derechos reservados</p>
                     </div>
                 </div>
             </div>
@@ -649,6 +649,14 @@
     <script src="assets/js/mbclicker.min.js"></script>
     <script src="assets/js/site-btn.js"></script>
     <script src="assets/js/style-switcher.js"></script>
+    
+    <script type="text/javascript">
+    $(document).ready(function () {
+        let date = new Date();
+        $("[data-type='age']").text(date.getFullYear()-1989)
+        $("[data-type='year']").text(date.getFullYear())
+    });
+    </script>
 </body>
 
 </html>
