@@ -80,3 +80,13 @@
     }
 }
 
+@media (max-width: 576px) {
+    .personal-profile .personal-profile__social {
+        text-align: center !important;
+    }
+}
+
+
+
+
+
