@@ -44,10 +44,6 @@
     /* object-fit: fill; */
 }
 
-.tags li {
-    margin-bottom: 5px;
-}
-
 .project-card .project-card__info {
     padding: 30px;
 }
@@ -63,3 +59,24 @@
 .site-btn {
     min-width: 250px;
 }
+
+.resume-list__block ul {
+    list-style: initial;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.resume-list .resume-list__block {
+    padding-bottom: 45px;
+}
+
+.tags li {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 720px) {
+    .main-header {
+        background-image: url("../img/avatar.jpg") !important;
+    }
+}
+
